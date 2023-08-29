@@ -14,11 +14,11 @@ int main()
 			printboard();
 			playermove();
 			winner = checkwinner();
-			if (winner != ' ' || checkfreespaces() == 0)
+			if (winner != ' ')
 				break;
 			computermove();
 			winner = checkwinner();
-			if (winner != ' ' || checkfreespaces() == 0)
+			if (winner != ' ')
 				break;
 		}
 		printboard();
